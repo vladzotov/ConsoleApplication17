@@ -45,9 +45,7 @@
   <ItemGroup>
     <Compile Include="BasePencilRepository.cs" />
     <Compile Include="IPencilsRepository.cs" />
-    <Compile Include="Pen.cs" />
     <Compile Include="Pencil.cs" />
-    <Compile Include="PencilsFileRepository.cs" />
     <Compile Include="PencilsRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

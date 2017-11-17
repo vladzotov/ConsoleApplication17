@@ -9,8 +9,6 @@ namespace ConsoleApplication17
 
     class Program
     {
-        private static IPencilsRepository _pencilsRepository;
-
         static void Main(string[] args)
         {
            var pencilsRepository = new PencilsRepository(24);
@@ -25,7 +23,6 @@ namespace ConsoleApplication17
 
             pencilsRepository.Add(pencil);
             pencilsRepository.Print(pencil);
-            
             Console.ReadKey();
         }
     }

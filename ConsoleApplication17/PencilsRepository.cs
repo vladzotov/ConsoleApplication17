@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication17
 {
-    class PencilsRepository : BasePencilRepository, IPencilsRepository
+    class PencilsRepository : BasePencilRepository
     {
         private Pencil[] _pencils;
         private int _lastIndex;
@@ -32,11 +32,6 @@ namespace ConsoleApplication17
         public override Pencil Get(int id)
         {
             throw new NotImplementedException();
-        }
-
-        public void Delete(int id)
-        {
-
         }
     }
 }

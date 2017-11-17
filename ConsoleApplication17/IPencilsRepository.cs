@@ -8,8 +8,8 @@ namespace ConsoleApplication17
 {
     interface IPencilsRepository
     {
-        void Add(Pencil pencil);
-
-        Pencil Get(int id);
+        Pencil this[int index] { get; }
+        int Count { get; }
+        void Delete(int index);
     }
 }
